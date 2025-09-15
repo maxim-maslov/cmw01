@@ -1,0 +1,31 @@
+{
+  "$type": "Comindware.Platform.Contracts.UserCommandConfigurationModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "UserCommand",
+    "Owner": "Кандидаты",
+    "Alias": "archive"
+  },
+  "Container": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "RecordTemplate",
+    "Alias": "Кандидаты"
+  },
+  "Name": "Архивировать",
+  "IsSystem": false,
+  "IsDisabled": false,
+  "IsPrepare": false,
+  "SkipValidation": false,
+  "Context": "Record",
+  "Multiplicity": "Package",
+  "Kind": "Archive",
+  "ResultType": "DataChange",
+  "RelatedEntityGlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Undefined"
+  },
+  "LockStateChangeType": "Undefined",
+  "LockStateVisibilityType": "Undefined",
+  "IsConfirmationActive": false,
+  "NavigationTarget": "Undefined"
+}

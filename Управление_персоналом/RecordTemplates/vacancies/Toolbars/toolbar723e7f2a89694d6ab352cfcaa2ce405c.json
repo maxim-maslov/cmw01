@@ -1,0 +1,21 @@
+{
+  "$type": "Comindware.Platform.Contracts.ToolbarModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Toolbar",
+    "Owner": "vacancies",
+    "Alias": "toolbar723e7f2a89694d6ab352cfcaa2ce405c"
+  },
+  "Container": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "RecordTemplate",
+    "Alias": "vacancies"
+  },
+  "Name": "Область кнопок",
+  "IsDefaultForLists": false,
+  "IsDefaultForForms": false,
+  "IsDefaultForProcess": false,
+  "IsDefaultForProcessDesigner": false,
+  "IsDefaultForModelDesigner": false,
+  "IsDefaultForTaskLists": false
+}

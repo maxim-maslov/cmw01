@@ -1,0 +1,24 @@
+{
+  "$type": "Comindware.Platform.Contracts.TemplateInfoModel, Comindware.Platform.Contracts",
+  "Name": "Кандидаты",
+  "Description": "Реестр кандидатов на вакансии",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "RecordTemplate",
+    "Alias": "Кандидаты"
+  },
+  "IsDisabled": false,
+  "IsReferenceData": false,
+  "IsTransferable": false,
+  "ConversationDisplayConfig": {
+    "$type": "Comindware.Platform.Contracts.ObjectConversationDisplayConfigModel, Comindware.Platform.Contracts",
+    "DisableSidePanelConversations": false,
+    "DisableWidgetConversations": false,
+    "ProhibitedReferenceTypes": {
+      "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ConversationReferenceTypes, Comindware.Platform.Contracts]], mscorlib",
+      "$values": []
+    },
+    "HideArchivedMessages": false
+  },
+  "Type": "Record"
+}

@@ -1,0 +1,21 @@
+{
+  "$type": "Comindware.Platform.Contracts.ToolbarModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Toolbar",
+    "Owner": "Кандидаты",
+    "Alias": "toolbar9762af7a79c4458f9a4aed3939e6dda5"
+  },
+  "Container": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "RecordTemplate",
+    "Alias": "Кандидаты"
+  },
+  "Name": "Область кнопок для «Новая область»",
+  "IsDefaultForLists": false,
+  "IsDefaultForForms": false,
+  "IsDefaultForProcess": false,
+  "IsDefaultForProcessDesigner": false,
+  "IsDefaultForModelDesigner": false,
+  "IsDefaultForTaskLists": false
+}

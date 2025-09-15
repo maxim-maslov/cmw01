@@ -1,0 +1,54 @@
+{
+  "$type": "Comindware.Platform.Contracts.ToolbarModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Toolbar",
+    "Owner": "OrgStructureTemplate",
+    "Alias": "defaultListToolbar"
+  },
+  "Container": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "OrgStructureTemplate",
+    "Alias": "OrgStructureTemplate"
+  },
+  "Name": "Область кнопок для таблиц",
+  "IsDefaultForLists": true,
+  "IsDefaultForForms": false,
+  "IsDefaultForProcess": false,
+  "IsDefaultForProcessDesigner": false,
+  "IsDefaultForModelDesigner": false,
+  "IsDefaultForTaskLists": false,
+  "Items": {
+    "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts]], mscorlib",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts",
+        "Action": {
+          "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
+          "Type": "UserCommand",
+          "Owner": "OrgStructureTemplate",
+          "Alias": "create"
+        },
+        "Name": "Создать",
+        "Order": 0,
+        "Type": "Action",
+        "IconType": "Undefined",
+        "Severity": "None"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts",
+        "Action": {
+          "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
+          "Type": "UserCommand",
+          "Owner": "OrgStructureTemplate",
+          "Alias": "archive"
+        },
+        "Name": "Архивировать",
+        "Order": 1,
+        "Type": "Action",
+        "IconType": "Undefined",
+        "Severity": "None"
+      }
+    ]
+  }
+}

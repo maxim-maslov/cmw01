@@ -1,0 +1,7 @@
+{
+  "$type": "Comindware.Platform.Contracts.SolutionInfoModel, Comindware.Platform.Contracts",
+  "Alias": "Управление_персоналом",
+  "Name": "Управление персоналом",
+  "Description": "Приложение для управления персоналом",
+  "IsDefault": false
+}

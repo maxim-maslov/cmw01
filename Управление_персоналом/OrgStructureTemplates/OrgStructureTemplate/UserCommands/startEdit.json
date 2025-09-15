@@ -1,0 +1,31 @@
+{
+  "$type": "Comindware.Platform.Contracts.UserCommandConfigurationModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "UserCommand",
+    "Owner": "OrgStructureTemplate",
+    "Alias": "startEdit"
+  },
+  "Container": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "OrgStructureTemplate",
+    "Alias": "OrgStructureTemplate"
+  },
+  "Name": "Редактировать",
+  "IsSystem": false,
+  "IsDisabled": false,
+  "IsPrepare": false,
+  "SkipValidation": false,
+  "Context": "Model",
+  "Multiplicity": "Undefined",
+  "Kind": "UserEvent",
+  "ResultType": "DataChange",
+  "RelatedEntityGlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Undefined"
+  },
+  "LockStateChangeType": "Lock",
+  "LockStateVisibilityType": "HiddenOnLock",
+  "IsConfirmationActive": false,
+  "NavigationTarget": "Undefined"
+}

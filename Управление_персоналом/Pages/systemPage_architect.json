@@ -1,0 +1,441 @@
+{
+  "$type": "Comindware.Platform.Contracts.Desktop.PageModel, Comindware.Platform.Contracts",
+  "Name": "Новая страница",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "SimplePage",
+    "Owner": "systemPage_architect",
+    "Alias": "systemPage_architect"
+  },
+  "Root": {
+    "$type": "Comindware.Platform.Contracts.Desktop.VerticalLayoutComponentModel, Comindware.Platform.Contracts",
+    "Rows": {
+      "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.ComponentModel, Comindware.Platform.Contracts]], mscorlib",
+      "$values": [
+        {
+          "$type": "Comindware.Platform.Contracts.Desktop.GroupPanelComponentModel, Comindware.Platform.Contracts",
+          "Rows": {
+            "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.ComponentModel, Comindware.Platform.Contracts]], mscorlib",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.Desktop.VerticalLayoutComponentModel, Comindware.Platform.Contracts",
+                "Rows": {
+                  "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.ComponentModel, Comindware.Platform.Contracts]], mscorlib",
+                  "$values": [
+                    {
+                      "$type": "Comindware.Platform.Contracts.Desktop.BannerComponentModel, Comindware.Platform.Contracts",
+                      "Type": "Banner",
+                      "Links": {
+                        "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.LinkModel, Comindware.Platform.Contracts]], mscorlib",
+                        "$values": [
+                          {
+                            "$type": "Comindware.Platform.Contracts.Desktop.LinkModel, Comindware.Platform.Contracts",
+                            "IconClass": "circle-check",
+                            "Name": "База знаний",
+                            "Url": "https://kb.comindware.ru"
+                          },
+                          {
+                            "$type": "Comindware.Platform.Contracts.Desktop.LinkModel, Comindware.Platform.Contracts"
+                          },
+                          {
+                            "$type": "Comindware.Platform.Contracts.Desktop.LinkModel, Comindware.Platform.Contracts",
+                            "IconClass": "badge-check",
+                            "Name": "Управление лицензиями",
+                            "Url": "/#Settings/Licensing"
+                          },
+                          {
+                            "$type": "Comindware.Platform.Contracts.Desktop.LinkModel, Comindware.Platform.Contracts",
+                            "IconClass": "circle-book-open",
+                            "Name": "Блог Comindware",
+                            "Url": "https://www.comindware.ru/blog"
+                          },
+                          {
+                            "$type": "Comindware.Platform.Contracts.Desktop.LinkModel, Comindware.Platform.Contracts",
+                            "IconClass": "circle-phone-flip",
+                            "Name": "Контакты",
+                            "Url": "https://www.comindware.ru/company/contact-us"
+                          }
+                        ]
+                      },
+                      "Label": {
+                        "$type": "Comindware.Platform.Contracts.Desktop.Label, Comindware.Platform.Contracts",
+                        "Hidden": false,
+                        "Text": {
+                          "$type": "Comindware.Platform.Contracts.Desktop.LocalizedText, Comindware.Platform.Contracts",
+                          "En": "Comindware Platform",
+                          "De": "Comindware Platform",
+                          "Ru": "Comindware Platform"
+                        },
+                        "Alignment": "Undefined"
+                      },
+                      "Image": {
+                        "$type": "Comindware.Platform.Contracts.ReferenceModel, Comindware.Platform.Contracts",
+                        "Alias": {
+                          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                          "Type": "Image",
+                          "Alias": "cmw.desktopPage.desktopPageImage"
+                        },
+                        "Name": "cmw.desktopPage.desktopPageImage",
+                        "Url": "/resources/images/cmw_intro.png"
+                      },
+                      "Name": "Добро пожаловать",
+                      "AccessType": "Undefined",
+                      "GlobalAlias": {
+                        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                        "Type": "DesktopComponent",
+                        "Owner": "Component_7e94f19f-00a7-47a3-92ff-9da8395810b3",
+                        "Alias": "Component_31e8016f-8d1a-4839-beef-411d0b2139f2"
+                      },
+                      "WidgetConfigId": {
+                        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                        "Type": "DesktopWidgetConfig",
+                        "Alias": "welcomeBanner"
+                      },
+                      "Order": 1
+                    }
+                  ]
+                },
+                "Type": "VerticalLayout",
+                "AccessType": "Undefined",
+                "GlobalAlias": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Type": "DesktopComponent",
+                  "Owner": "Component_50b97bee-20dd-4557-b6c4-92a0ad24c823",
+                  "Alias": "Component_7e94f19f-00a7-47a3-92ff-9da8395810b3"
+                },
+                "WidgetConfigId": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Type": "Undefined"
+                },
+                "Order": 1
+              }
+            ]
+          },
+          "Text": {
+            "$type": "Comindware.Platform.Contracts.Desktop.LocalizedText, Comindware.Platform.Contracts"
+          },
+          "Type": "GroupPanel",
+          "Name": "Добро пожаловать",
+          "AccessType": "Undefined",
+          "GlobalAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "DesktopComponent",
+            "Owner": "Component_e618c2eb-397c-45d3-8aa7-a943dd373135",
+            "Alias": "Component_50b97bee-20dd-4557-b6c4-92a0ad24c823"
+          },
+          "WidgetConfigId": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "Order": 1
+        },
+        {
+          "$type": "Comindware.Platform.Contracts.Desktop.GroupPanelComponentModel, Comindware.Platform.Contracts",
+          "Rows": {
+            "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.ComponentModel, Comindware.Platform.Contracts]], mscorlib",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.Desktop.VerticalLayoutComponentModel, Comindware.Platform.Contracts",
+                "Rows": {
+                  "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.ComponentModel, Comindware.Platform.Contracts]], mscorlib",
+                  "$values": [
+                    {
+                      "$type": "Comindware.Platform.Contracts.Desktop.TabLayoutComponentModel, Comindware.Platform.Contracts",
+                      "Tabs": {
+                        "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.ComponentModel, Comindware.Platform.Contracts]], mscorlib",
+                        "$values": [
+                          {
+                            "$type": "Comindware.Platform.Contracts.Desktop.TabPanelComponentModel, Comindware.Platform.Contracts",
+                            "Text": {
+                              "$type": "Comindware.Platform.Contracts.Desktop.LocalizedText, Comindware.Platform.Contracts",
+                              "En": "Создайте архитектуру",
+                              "De": "Создайте архитектуру",
+                              "Ru": "Создайте архитектуру"
+                            },
+                            "Type": "TabPanel",
+                            "Rows": {
+                              "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.ComponentModel, Comindware.Platform.Contracts]], mscorlib",
+                              "$values": [
+                                {
+                                  "$type": "Comindware.Platform.Contracts.Desktop.HorizontalLayoutComponentModel, Comindware.Platform.Contracts",
+                                  "Components": {
+                                    "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.ComponentModel, Comindware.Platform.Contracts]], mscorlib",
+                                    "$values": [
+                                      {
+                                        "$type": "Comindware.Platform.Contracts.Desktop.VerticalLayoutComponentModel, Comindware.Platform.Contracts",
+                                        "Rows": {
+                                          "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.ComponentModel, Comindware.Platform.Contracts]], mscorlib",
+                                          "$values": [
+                                            {
+                                              "$type": "Comindware.Platform.Contracts.Desktop.StepperComponentModel, Comindware.Platform.Contracts",
+                                              "Steps": {
+                                                "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.StepModel, Comindware.Platform.Contracts]], mscorlib",
+                                                "$values": [
+                                                  {
+                                                    "$type": "Comindware.Platform.Contracts.Desktop.StepModel, Comindware.Platform.Contracts",
+                                                    "Content": "<ul>\n\t<li><a href=\"/#Architect/sln.2/processRegistry/\" target=\"_blank\">Реестр процессов</a></li>\n</ul>\n",
+                                                    "Name": "Процессы"
+                                                  }
+                                                ]
+                                              },
+                                              "Label": {
+                                                "$type": "Comindware.Platform.Contracts.Desktop.Label, Comindware.Platform.Contracts",
+                                                "Hidden": false,
+                                                "Text": {
+                                                  "$type": "Comindware.Platform.Contracts.Desktop.LocalizedText, Comindware.Platform.Contracts",
+                                                  "En": "Создание архитектуры в Comindware Architect",
+                                                  "De": "Создание архитектуры в Comindware Architect",
+                                                  "Ru": "Создание архитектуры в Comindware Architect"
+                                                },
+                                                "Alignment": "Undefined"
+                                              },
+                                              "Type": "Stepper",
+                                              "Name": "Создание архитектуры",
+                                              "AccessType": "Undefined",
+                                              "GlobalAlias": {
+                                                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                                                "Type": "DesktopComponent",
+                                                "Owner": "Component_f620b091-6bfe-4877-9e77-070f0b20be98",
+                                                "Alias": "Component_00a71f5f-e63c-40d0-a169-370bfb377759"
+                                              },
+                                              "WidgetConfigId": {
+                                                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                                                "Type": "DesktopWidgetConfig",
+                                                "Alias": "arch"
+                                              },
+                                              "Order": 1
+                                            }
+                                          ]
+                                        },
+                                        "Type": "VerticalLayout",
+                                        "AccessType": "Undefined",
+                                        "GlobalAlias": {
+                                          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                                          "Type": "DesktopComponent",
+                                          "Owner": "Component_b3fa2ecb-4987-4b0f-9fef-5bf81d4869c3",
+                                          "Alias": "Component_f620b091-6bfe-4877-9e77-070f0b20be98"
+                                        },
+                                        "WidgetConfigId": {
+                                          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                                          "Type": "Undefined"
+                                        },
+                                        "Order": 1
+                                      }
+                                    ]
+                                  },
+                                  "Type": "HorizontalLayout",
+                                  "AccessType": "Undefined",
+                                  "GlobalAlias": {
+                                    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                                    "Type": "DesktopComponent",
+                                    "Owner": "Component_a7926ed6-4f95-4fd9-8133-3d7f5b991d15",
+                                    "Alias": "Component_b3fa2ecb-4987-4b0f-9fef-5bf81d4869c3"
+                                  },
+                                  "WidgetConfigId": {
+                                    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                                    "Type": "Undefined"
+                                  },
+                                  "Order": 1
+                                }
+                              ]
+                            },
+                            "AccessType": "Undefined",
+                            "GlobalAlias": {
+                              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                              "Type": "DesktopComponent",
+                              "Owner": "Component_ba899cf6-9832-49a0-a087-bce5ec5d3851",
+                              "Alias": "Component_a7926ed6-4f95-4fd9-8133-3d7f5b991d15"
+                            },
+                            "WidgetConfigId": {
+                              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                              "Type": "Undefined"
+                            },
+                            "Order": 1
+                          },
+                          {
+                            "$type": "Comindware.Platform.Contracts.Desktop.TabPanelComponentModel, Comindware.Platform.Contracts",
+                            "Text": {
+                              "$type": "Comindware.Platform.Contracts.Desktop.LocalizedText, Comindware.Platform.Contracts",
+                              "En": "Настройте продукт",
+                              "De": "Настройте продукт",
+                              "Ru": "Настройте продукт"
+                            },
+                            "Type": "TabPanel",
+                            "Rows": {
+                              "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.ComponentModel, Comindware.Platform.Contracts]], mscorlib",
+                              "$values": [
+                                {
+                                  "$type": "Comindware.Platform.Contracts.Desktop.HorizontalLayoutComponentModel, Comindware.Platform.Contracts",
+                                  "Components": {
+                                    "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.ComponentModel, Comindware.Platform.Contracts]], mscorlib",
+                                    "$values": [
+                                      {
+                                        "$type": "Comindware.Platform.Contracts.Desktop.VerticalLayoutComponentModel, Comindware.Platform.Contracts",
+                                        "Rows": {
+                                          "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.ComponentModel, Comindware.Platform.Contracts]], mscorlib",
+                                          "$values": [
+                                            {
+                                              "$type": "Comindware.Platform.Contracts.Desktop.StepperComponentModel, Comindware.Platform.Contracts",
+                                              "Steps": {
+                                                "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.StepModel, Comindware.Platform.Contracts]], mscorlib",
+                                                "$values": [
+                                                  {
+                                                    "$type": "Comindware.Platform.Contracts.Desktop.StepModel, Comindware.Platform.Contracts",
+                                                    "Content": "<ul>\n\t<li><a href=\"/#Settings/Theme/cmw.theme.themeBlueSystem\" target=\"_blank\">Настройте тему интерфейса</a></li>\n\t<li><a href=\"/#Settings/Pages/\" target=\"_blank\">Настройте дизайн страницы входа и регистрации</a></li>\n</ul>\n",
+                                                    "Name": "Внешний вид"
+                                                  },
+                                                  {
+                                                    "$type": "Comindware.Platform.Contracts.Desktop.StepModel, Comindware.Platform.Contracts",
+                                                    "Content": "<ul>\n\t<li><a href=\"/#Settings/Backup/Configurations\" target=\"_blank\">Резервное копирование</a></li>\n\t<li><a href=\"/#Settings/globalConfiguration\" target=\"_blank\">Общесистемные настройки</a></li>\n</ul>\n",
+                                                    "Name": "Расширенная настройка"
+                                                  },
+                                                  {
+                                                    "$type": "Comindware.Platform.Contracts.Desktop.StepModel, Comindware.Platform.Contracts",
+                                                    "Content": "<ul>\n\t<li><a href=\"/#Settings/People/Users/NewUser\" target=\"_blank\">Регистрация и вход аккаунтов</a></li>\n\t<li><a href=\"/#Settings/globalSecurity\" target=\"_blank\">Назначьте системные роли</a></li>\n\t<li><a href=\"/#Settings/People/Users\" target=\"_blank\">Все аккаунты</a></li>\n</ul>\n",
+                                                    "Name": "Совместная работа"
+                                                  }
+                                                ]
+                                              },
+                                              "Label": {
+                                                "$type": "Comindware.Platform.Contracts.Desktop.Label, Comindware.Platform.Contracts",
+                                                "Hidden": false,
+                                                "Text": {
+                                                  "$type": "Comindware.Platform.Contracts.Desktop.LocalizedText, Comindware.Platform.Contracts",
+                                                  "En": "Настройте Comindware Architect",
+                                                  "De": "Настройте Comindware Architect",
+                                                  "Ru": "Настройте Comindware Architect"
+                                                },
+                                                "Alignment": "Undefined"
+                                              },
+                                              "Type": "Stepper",
+                                              "Name": "Настройка продукта",
+                                              "AccessType": "Undefined",
+                                              "GlobalAlias": {
+                                                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                                                "Type": "DesktopComponent",
+                                                "Owner": "Component_4fa85d62-b790-4427-bd91-aafb6c9df761",
+                                                "Alias": "Component_0b5f688f-2049-4d3a-8433-5c3717cbbe56"
+                                              },
+                                              "WidgetConfigId": {
+                                                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                                                "Type": "DesktopWidgetConfig",
+                                                "Alias": "common"
+                                              },
+                                              "Order": 1
+                                            }
+                                          ]
+                                        },
+                                        "Type": "VerticalLayout",
+                                        "AccessType": "Undefined",
+                                        "GlobalAlias": {
+                                          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                                          "Type": "DesktopComponent",
+                                          "Owner": "Component_72ee05d6-2c30-4648-acbc-3cc681efc410",
+                                          "Alias": "Component_4fa85d62-b790-4427-bd91-aafb6c9df761"
+                                        },
+                                        "WidgetConfigId": {
+                                          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                                          "Type": "Undefined"
+                                        },
+                                        "Order": 1
+                                      }
+                                    ]
+                                  },
+                                  "Type": "HorizontalLayout",
+                                  "AccessType": "Undefined",
+                                  "GlobalAlias": {
+                                    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                                    "Type": "DesktopComponent",
+                                    "Owner": "Component_5f86501d-aa7d-49f2-9c6e-0cb888750f66",
+                                    "Alias": "Component_72ee05d6-2c30-4648-acbc-3cc681efc410"
+                                  },
+                                  "WidgetConfigId": {
+                                    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                                    "Type": "Undefined"
+                                  },
+                                  "Order": 1
+                                }
+                              ]
+                            },
+                            "AccessType": "Undefined",
+                            "GlobalAlias": {
+                              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                              "Type": "DesktopComponent",
+                              "Owner": "Component_ba899cf6-9832-49a0-a087-bce5ec5d3851",
+                              "Alias": "Component_5f86501d-aa7d-49f2-9c6e-0cb888750f66"
+                            },
+                            "WidgetConfigId": {
+                              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                              "Type": "Undefined"
+                            },
+                            "Order": 2
+                          }
+                        ]
+                      },
+                      "Type": "TabLayout",
+                      "AccessType": "Undefined",
+                      "GlobalAlias": {
+                        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                        "Type": "DesktopComponent",
+                        "Owner": "Component_7857f487-b861-4034-9771-6c412eb29385",
+                        "Alias": "Component_ba899cf6-9832-49a0-a087-bce5ec5d3851"
+                      },
+                      "WidgetConfigId": {
+                        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                        "Type": "Undefined"
+                      },
+                      "Order": 1
+                    }
+                  ]
+                },
+                "Type": "VerticalLayout",
+                "AccessType": "Undefined",
+                "GlobalAlias": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Type": "DesktopComponent",
+                  "Owner": "Component_1929f732-1f72-4331-b654-ad1fccb6b2ee",
+                  "Alias": "Component_7857f487-b861-4034-9771-6c412eb29385"
+                },
+                "WidgetConfigId": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Type": "Undefined"
+                },
+                "Order": 1
+              }
+            ]
+          },
+          "Text": {
+            "$type": "Comindware.Platform.Contracts.Desktop.LocalizedText, Comindware.Platform.Contracts"
+          },
+          "Type": "GroupPanel",
+          "Name": "С чего начать?",
+          "AccessType": "Undefined",
+          "GlobalAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "DesktopComponent",
+            "Owner": "Component_e618c2eb-397c-45d3-8aa7-a943dd373135",
+            "Alias": "Component_1929f732-1f72-4331-b654-ad1fccb6b2ee"
+          },
+          "WidgetConfigId": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "Order": 2
+        }
+      ]
+    },
+    "Type": "VerticalLayout",
+    "AccessType": "Undefined",
+    "GlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "DesktopComponent",
+      "Owner": "systemPage_architect",
+      "Alias": "Component_e618c2eb-397c-45d3-8aa7-a943dd373135"
+    },
+    "WidgetConfigId": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "Undefined"
+    },
+    "Order": 1
+  }
+}

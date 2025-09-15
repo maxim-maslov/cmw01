@@ -1,0 +1,152 @@
+{
+  "$type": "Comindware.Platform.Contracts.FormModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Form",
+    "Owner": "vacancies",
+    "Alias": "defaultForm"
+  },
+  "Type": "PublicForm",
+  "Container": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "RecordTemplate",
+    "Alias": "vacancies"
+  },
+  "FormSize": "Undefined",
+  "IsDefault": true,
+  "Root": {
+    "$type": "Comindware.Platform.Contracts.VerticalLayoutModel, Comindware.Platform.Contracts",
+    "Rows": {
+      "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.FormComponentModel, Comindware.Platform.Contracts]], mscorlib",
+      "$values": [
+        {
+          "$type": "Comindware.Platform.Contracts.PanelModel, Comindware.Platform.Contracts",
+          "Text": {
+            "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts",
+            "En": "Новая область",
+            "De": "Новая область",
+            "Ru": "Новая область"
+          },
+          "OriginalType": "GroupPanel",
+          "Rows": {
+            "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.FormComponentModel, Comindware.Platform.Contracts]], mscorlib",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.VerticalLayoutModel, Comindware.Platform.Contracts",
+                "Rows": {
+                  "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.FormComponentModel, Comindware.Platform.Contracts]], mscorlib",
+                  "$values": [
+                    {
+                      "$type": "Comindware.Platform.Contracts.FieldComponentModel, Comindware.Platform.Contracts",
+                      "Label": {
+                        "$type": "Comindware.Platform.Contracts.LabelModel, Comindware.Platform.Contracts",
+                        "Hidden": false,
+                        "Alignment": "Top",
+                        "Text": {
+                          "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts",
+                          "En": "Название вакансии",
+                          "De": "Название вакансии",
+                          "Ru": "Название вакансии"
+                        }
+                      },
+                      "FieldType": "Text",
+                      "Placeholder": {
+                        "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+                      },
+                      "HelpText": {
+                        "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+                      },
+                      "PropertyPath": {
+                        "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+                        "$values": [
+                          {
+                            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                            "Type": "Attribute",
+                            "Owner": "vacancies",
+                            "Alias": "vacancy_name"
+                          }
+                        ]
+                      },
+                      "TextHeight": 0,
+                      "DisableSidePanelConversations": false,
+                      "DisableWidgetConversations": false,
+                      "HideArchivedMessages": false,
+                      "TextHeightAuto": false,
+                      "MaxLength": 0,
+                      "EditorType": "Multiline",
+                      "CreationType": "None",
+                      "RemovalType": "None",
+                      "EditType": "None",
+                      "ChildPropertyAlias": {
+                        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                        "Type": "Undefined"
+                      },
+                      "OrderPropertyAlias": {
+                        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                        "Type": "Undefined"
+                      },
+                      "NumberPropertyAlias": {
+                        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                        "Type": "Undefined"
+                      },
+                      "PrecedentPropertyAlias": {
+                        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                        "Type": "Undefined"
+                      },
+                      "SortingDirection": "Asc",
+                      "PopupFormAlias": {
+                        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                        "Type": "Undefined"
+                      },
+                      "DisplayFormat": "ShowAsPicture",
+                      "GlobalAlias": {
+                        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                        "Type": "FormComponent",
+                        "Alias": "vacancy_name"
+                      },
+                      "AccessType": "Editable",
+                      "Width": 0,
+                      "Type": "FieldComponent"
+                    }
+                  ]
+                },
+                "GlobalAlias": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Type": "FormComponent",
+                  "Alias": "VerticalLayout"
+                },
+                "AccessType": "Undefined",
+                "Width": 0,
+                "Type": "VerticalLayout"
+              }
+            ]
+          },
+          "GlobalAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "FormComponent"
+          },
+          "AccessType": "Editable",
+          "Width": 100,
+          "Type": "PanelModel",
+          "Toolbar": {
+            "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
+            "Type": "Toolbar",
+            "Owner": "vacancies",
+            "Alias": "toolbar723e7f2a89694d6ab352cfcaa2ce405c"
+          }
+        }
+      ]
+    },
+    "GlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "FormComponent",
+      "Alias": "default_Root"
+    },
+    "AccessType": "Undefined",
+    "Width": 0,
+    "Type": "VerticalLayout"
+  },
+  "Name": "Вакансии - Основная форма",
+  "Origination": "Undefined",
+  "WithSimpleToolbar": false
+}

@@ -1,0 +1,539 @@
+{
+  "$type": "Comindware.Platform.Contracts.FormModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Form",
+    "Owner": "RoleTemplate",
+    "Alias": "roleForm"
+  },
+  "Type": "PublicForm",
+  "Container": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "RoleTemplate",
+    "Alias": "RoleTemplate"
+  },
+  "FormSize": "Undefined",
+  "IsDefault": true,
+  "Root": {
+    "$type": "Comindware.Platform.Contracts.VerticalLayoutModel, Comindware.Platform.Contracts",
+    "Rows": {
+      "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.FormComponentModel, Comindware.Platform.Contracts]], mscorlib",
+      "$values": [
+        {
+          "$type": "Comindware.Platform.Contracts.FieldComponentModel, Comindware.Platform.Contracts",
+          "Label": {
+            "$type": "Comindware.Platform.Contracts.LabelModel, Comindware.Platform.Contracts",
+            "Hidden": false,
+            "Alignment": "Undefined",
+            "Text": {
+              "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts",
+              "En": "Активная",
+              "De": "Активная",
+              "Ru": "Активная"
+            }
+          },
+          "FieldType": "Boolean",
+          "Placeholder": {
+            "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+          },
+          "HelpText": {
+            "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+          },
+          "PropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Attribute",
+                "Owner": "RoleTemplate",
+                "Alias": "roleIsActive"
+              }
+            ]
+          },
+          "DisableSidePanelConversations": false,
+          "DisableWidgetConversations": false,
+          "HideArchivedMessages": false,
+          "TrueText": {
+            "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+          },
+          "FalseText": {
+            "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+          },
+          "UseTrueFalseText": false,
+          "EditorType": "Radio",
+          "CreationType": "None",
+          "RemovalType": "None",
+          "EditType": "None",
+          "ChildPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "OrderPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "NumberPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "PrecedentPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "SortingDirection": "Asc",
+          "PopupFormAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "DisplayFormat": "ShowAsPicture",
+          "GlobalAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "FormComponent",
+            "Alias": "isActive"
+          },
+          "AccessType": "Editable",
+          "Width": 0,
+          "Type": "FieldComponent"
+        },
+        {
+          "$type": "Comindware.Platform.Contracts.FieldComponentModel, Comindware.Platform.Contracts",
+          "Label": {
+            "$type": "Comindware.Platform.Contracts.LabelModel, Comindware.Platform.Contracts",
+            "Hidden": false,
+            "Alignment": "Undefined",
+            "Text": {
+              "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts",
+              "En": "Название",
+              "De": "Название",
+              "Ru": "Название"
+            }
+          },
+          "FieldType": "Text",
+          "Placeholder": {
+            "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+          },
+          "HelpText": {
+            "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+          },
+          "PropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Attribute",
+                "Owner": "RoleTemplate",
+                "Alias": "roleName"
+              }
+            ]
+          },
+          "TextHeight": 0,
+          "DisableSidePanelConversations": false,
+          "DisableWidgetConversations": false,
+          "HideArchivedMessages": false,
+          "TextHeightAuto": false,
+          "MaxLength": 0,
+          "EditorType": "Simple",
+          "CreationType": "None",
+          "RemovalType": "None",
+          "EditType": "None",
+          "ChildPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "OrderPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "NumberPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "PrecedentPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "SortingDirection": "Asc",
+          "PopupFormAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "DisplayFormat": "ShowAsPicture",
+          "GlobalAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "FormComponent",
+            "Alias": "roleName"
+          },
+          "AccessType": "Required",
+          "Width": 0,
+          "Type": "FieldComponent"
+        },
+        {
+          "$type": "Comindware.Platform.Contracts.FieldComponentModel, Comindware.Platform.Contracts",
+          "Label": {
+            "$type": "Comindware.Platform.Contracts.LabelModel, Comindware.Platform.Contracts",
+            "Hidden": false,
+            "Alignment": "Undefined",
+            "Text": {
+              "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts",
+              "En": "Системное имя",
+              "De": "Системное имя",
+              "Ru": "Системное имя"
+            }
+          },
+          "FieldType": "Text",
+          "Placeholder": {
+            "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+          },
+          "HelpText": {
+            "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+          },
+          "PropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Attribute",
+                "Owner": "RoleTemplate",
+                "Alias": "alias"
+              }
+            ]
+          },
+          "TextHeight": 0,
+          "DisableSidePanelConversations": false,
+          "DisableWidgetConversations": false,
+          "HideArchivedMessages": false,
+          "TextHeightAuto": false,
+          "MaxLength": 0,
+          "EditorType": "Simple",
+          "CreationType": "None",
+          "RemovalType": "None",
+          "EditType": "None",
+          "ChildPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "OrderPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "NumberPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "PrecedentPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "SortingDirection": "Asc",
+          "PopupFormAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "DisplayFormat": "ShowAsPicture",
+          "GlobalAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "FormComponent",
+            "Alias": "roleAlias"
+          },
+          "AccessType": "Required",
+          "Width": 0,
+          "Type": "FieldComponent"
+        },
+        {
+          "$type": "Comindware.Platform.Contracts.FieldComponentModel, Comindware.Platform.Contracts",
+          "Label": {
+            "$type": "Comindware.Platform.Contracts.LabelModel, Comindware.Platform.Contracts",
+            "Hidden": false,
+            "Alignment": "Undefined",
+            "Text": {
+              "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts",
+              "En": "Описание",
+              "De": "Описание",
+              "Ru": "Описание"
+            }
+          },
+          "FieldType": "Text",
+          "Placeholder": {
+            "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+          },
+          "HelpText": {
+            "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+          },
+          "PropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Attribute",
+                "Owner": "RoleTemplate",
+                "Alias": "roleDescription"
+              }
+            ]
+          },
+          "TextHeight": 0,
+          "DisableSidePanelConversations": false,
+          "DisableWidgetConversations": false,
+          "HideArchivedMessages": false,
+          "TextHeightAuto": false,
+          "MaxLength": 0,
+          "EditorType": "Simple",
+          "CreationType": "None",
+          "RemovalType": "None",
+          "EditType": "None",
+          "ChildPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "OrderPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "NumberPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "PrecedentPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "SortingDirection": "Asc",
+          "PopupFormAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "DisplayFormat": "ShowAsPicture",
+          "GlobalAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "FormComponent",
+            "Alias": "roleDescription"
+          },
+          "AccessType": "Editable",
+          "Width": 0,
+          "Type": "FieldComponent"
+        },
+        {
+          "$type": "Comindware.Platform.Contracts.FieldComponentModel, Comindware.Platform.Contracts",
+          "Label": {
+            "$type": "Comindware.Platform.Contracts.LabelModel, Comindware.Platform.Contracts",
+            "Hidden": false,
+            "Alignment": "Undefined",
+            "Text": {
+              "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts",
+              "En": "Создатель",
+              "De": "Создатель",
+              "Ru": "Создатель"
+            }
+          },
+          "FieldType": "Member",
+          "Placeholder": {
+            "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+          },
+          "HelpText": {
+            "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+          },
+          "PropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Attribute",
+                "Owner": "System#",
+                "Alias": "creator"
+              }
+            ]
+          },
+          "DisableSidePanelConversations": false,
+          "DisableWidgetConversations": false,
+          "HideArchivedMessages": false,
+          "EditorType": "Radio",
+          "CreationType": "None",
+          "RemovalType": "None",
+          "EditType": "None",
+          "HideSearchBar": false,
+          "ChildPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "OrderPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "NumberPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "PrecedentPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "SortingDirection": "Asc",
+          "MaxCount": 0,
+          "PopupFormAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "DisplayFormat": "ShowAsPicture",
+          "GlobalAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "FormComponent",
+            "Alias": "creator"
+          },
+          "AccessType": "Readonly",
+          "Width": 0,
+          "Type": "FieldComponent"
+        },
+        {
+          "$type": "Comindware.Platform.Contracts.FieldComponentModel, Comindware.Platform.Contracts",
+          "Label": {
+            "$type": "Comindware.Platform.Contracts.LabelModel, Comindware.Platform.Contracts",
+            "Hidden": false,
+            "Alignment": "Undefined",
+            "Text": {
+              "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts",
+              "En": "Дата создания",
+              "De": "Дата создания",
+              "Ru": "Дата создания"
+            }
+          },
+          "FieldType": "Date",
+          "Placeholder": {
+            "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+          },
+          "HelpText": {
+            "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+          },
+          "PropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Attribute",
+                "Owner": "System#",
+                "Alias": "lastWriteDate"
+              }
+            ]
+          },
+          "DisableSidePanelConversations": false,
+          "DisableWidgetConversations": false,
+          "HideArchivedMessages": false,
+          "EditorType": "Radio",
+          "CreationType": "None",
+          "RemovalType": "None",
+          "EditType": "None",
+          "DisplayTime": true,
+          "ChildPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "OrderPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "NumberPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "PrecedentPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "SortingDirection": "Asc",
+          "PopupFormAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "DisplayFormat": "ShowAsPicture",
+          "GlobalAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "FormComponent",
+            "Alias": "creationDate"
+          },
+          "AccessType": "Readonly",
+          "Width": 0,
+          "Type": "FieldComponent"
+        },
+        {
+          "$type": "Comindware.Platform.Contracts.FieldComponentModel, Comindware.Platform.Contracts",
+          "Label": {
+            "$type": "Comindware.Platform.Contracts.LabelModel, Comindware.Platform.Contracts",
+            "Hidden": false,
+            "Alignment": "Undefined",
+            "Text": {
+              "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts",
+              "En": "Дата изменения",
+              "De": "Дата изменения",
+              "Ru": "Дата изменения"
+            }
+          },
+          "FieldType": "Date",
+          "Placeholder": {
+            "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+          },
+          "HelpText": {
+            "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+          },
+          "PropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Attribute",
+                "Owner": "System#",
+                "Alias": "lastWriteDate"
+              }
+            ]
+          },
+          "DisableSidePanelConversations": false,
+          "DisableWidgetConversations": false,
+          "HideArchivedMessages": false,
+          "EditorType": "Radio",
+          "CreationType": "None",
+          "RemovalType": "None",
+          "EditType": "None",
+          "DisplayTime": true,
+          "ChildPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "OrderPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "NumberPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "PrecedentPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "SortingDirection": "Asc",
+          "PopupFormAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "DisplayFormat": "ShowAsPicture",
+          "GlobalAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "FormComponent",
+            "Alias": "lastWriteDate"
+          },
+          "AccessType": "Readonly",
+          "Width": 0,
+          "Type": "FieldComponent"
+        }
+      ]
+    },
+    "GlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "FormComponent",
+      "Alias": "roleMainForm"
+    },
+    "AccessType": "Undefined",
+    "Width": 0,
+    "Type": "VerticalLayout"
+  },
+  "Name": "Справочник ролей - Основная форма",
+  "Origination": "Undefined",
+  "WithSimpleToolbar": false
+}

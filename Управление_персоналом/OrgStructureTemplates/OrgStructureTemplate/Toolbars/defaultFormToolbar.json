@@ -1,0 +1,40 @@
+{
+  "$type": "Comindware.Platform.Contracts.ToolbarModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Toolbar",
+    "Owner": "OrgStructureTemplate",
+    "Alias": "defaultFormToolbar"
+  },
+  "Container": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "OrgStructureTemplate",
+    "Alias": "OrgStructureTemplate"
+  },
+  "Name": "Область кнопок для форм",
+  "IsDefaultForLists": false,
+  "IsDefaultForForms": true,
+  "IsDefaultForProcess": false,
+  "IsDefaultForProcessDesigner": false,
+  "IsDefaultForModelDesigner": false,
+  "IsDefaultForTaskLists": false,
+  "Items": {
+    "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts]], mscorlib",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts",
+        "Action": {
+          "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
+          "Type": "UserCommand",
+          "Owner": "OrgStructureTemplate",
+          "Alias": "edit"
+        },
+        "Name": "Сохранить",
+        "Order": 0,
+        "Type": "Action",
+        "IconType": "Undefined",
+        "Severity": "None"
+      }
+    ]
+  }
+}

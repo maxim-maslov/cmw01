@@ -1,0 +1,31 @@
+{
+  "$type": "Comindware.Platform.Contracts.UserCommandConfigurationModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "UserCommand",
+    "Owner": "vacancies",
+    "Alias": "delete"
+  },
+  "Container": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "RecordTemplate",
+    "Alias": "vacancies"
+  },
+  "Name": "Удалить",
+  "IsSystem": false,
+  "IsDisabled": false,
+  "IsPrepare": false,
+  "SkipValidation": false,
+  "Context": "Record",
+  "Multiplicity": "Package",
+  "Kind": "Delete",
+  "ResultType": "Navigate",
+  "RelatedEntityGlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Undefined"
+  },
+  "LockStateChangeType": "Undefined",
+  "LockStateVisibilityType": "Undefined",
+  "IsConfirmationActive": false,
+  "NavigationTarget": "Undefined"
+}

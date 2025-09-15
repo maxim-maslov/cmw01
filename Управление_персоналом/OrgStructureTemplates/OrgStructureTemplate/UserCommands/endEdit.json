@@ -1,0 +1,31 @@
+{
+  "$type": "Comindware.Platform.Contracts.UserCommandConfigurationModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "UserCommand",
+    "Owner": "OrgStructureTemplate",
+    "Alias": "endEdit"
+  },
+  "Container": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "OrgStructureTemplate",
+    "Alias": "OrgStructureTemplate"
+  },
+  "Name": "Просмотр",
+  "IsSystem": false,
+  "IsDisabled": false,
+  "IsPrepare": false,
+  "SkipValidation": false,
+  "Context": "Model",
+  "Multiplicity": "OneByOne",
+  "Kind": "UserEvent",
+  "ResultType": "DataChange",
+  "RelatedEntityGlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Undefined"
+  },
+  "LockStateChangeType": "Unlock",
+  "LockStateVisibilityType": "VisibleOnLock",
+  "IsConfirmationActive": false,
+  "NavigationTarget": "Undefined"
+}

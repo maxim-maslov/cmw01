@@ -1,0 +1,54 @@
+{
+  "$type": "Comindware.Platform.Contracts.ToolbarModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Toolbar",
+    "Owner": "RoleTemplate",
+    "Alias": "defaultListToolbar"
+  },
+  "Container": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "RoleTemplate",
+    "Alias": "RoleTemplate"
+  },
+  "Name": "Область кнопок для таблиц",
+  "IsDefaultForLists": true,
+  "IsDefaultForForms": false,
+  "IsDefaultForProcess": false,
+  "IsDefaultForProcessDesigner": false,
+  "IsDefaultForModelDesigner": false,
+  "IsDefaultForTaskLists": false,
+  "Items": {
+    "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts]], mscorlib",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts",
+        "Action": {
+          "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
+          "Type": "UserCommand",
+          "Owner": "RoleTemplate",
+          "Alias": "create"
+        },
+        "Name": "Создать",
+        "Order": 1,
+        "Type": "Action",
+        "IconType": "Plus",
+        "Severity": "None"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts",
+        "Action": {
+          "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
+          "Type": "UserCommand",
+          "Owner": "RoleTemplate",
+          "Alias": "deleteRole"
+        },
+        "Name": "Удалить",
+        "Order": 3,
+        "Type": "Action",
+        "IconType": "Remove",
+        "Severity": "Fatal"
+      }
+    ]
+  }
+}

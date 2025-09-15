@@ -1,0 +1,188 @@
+{
+  "$type": "Comindware.Platform.Contracts.CardModel, Comindware.Platform.Contracts",
+  "Name": "Карточка по умолчанию",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Card",
+    "Owner": "RoleTemplate",
+    "Alias": "defaultCard"
+  },
+  "ColumnsTemplate": {
+    "$type": "System.Int32[], mscorlib",
+    "$values": [
+      25,
+      25,
+      25,
+      25
+    ]
+  },
+  "RowsTemplate": {
+    "$type": "System.Int32[], mscorlib",
+    "$values": [
+      25,
+      25,
+      25,
+      25
+    ]
+  },
+  "IsDefault": true,
+  "Items": {
+    "$type": "Comindware.Platform.Contracts.CardItemModel[], Comindware.Platform.Contracts",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.CardItemModel, Comindware.Platform.Contracts",
+        "ColSpan": 2,
+        "AlignType": "Left",
+        "Component": {
+          "$type": "Comindware.Platform.Contracts.CardFieldComponentModel, Comindware.Platform.Contracts",
+          "Type": "FieldComponent",
+          "Label": "Создатель",
+          "PropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Attribute",
+                "Owner": "System#",
+                "Alias": "creator"
+              }
+            ]
+          },
+          "IsBold": false,
+          "IsItalic": false,
+          "DisplayType": "Text"
+        }
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.CardItemModel, Comindware.Platform.Contracts",
+        "ColSpan": 2,
+        "AlignType": "Right",
+        "Component": {
+          "$type": "Comindware.Platform.Contracts.CardFieldComponentModel, Comindware.Platform.Contracts",
+          "Type": "FieldComponent",
+          "Label": "Активная",
+          "PropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Attribute",
+                "Owner": "RoleTemplate",
+                "Alias": "roleIsActive"
+              }
+            ]
+          },
+          "IsBold": false,
+          "IsItalic": false,
+          "DisplayType": "Text"
+        }
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.CardItemModel, Comindware.Platform.Contracts",
+        "ColSpan": 4,
+        "AlignType": "Left",
+        "Component": {
+          "$type": "Comindware.Platform.Contracts.CardFieldComponentModel, Comindware.Platform.Contracts",
+          "Type": "FieldComponent",
+          "Label": "Название",
+          "PropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Attribute",
+                "Owner": "RoleTemplate",
+                "Alias": "roleName"
+              }
+            ]
+          },
+          "IsBold": false,
+          "IsItalic": false,
+          "DisplayType": "Text"
+        }
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.CardItemModel, Comindware.Platform.Contracts",
+        "ColSpan": 2,
+        "AlignType": "Left",
+        "Component": {
+          "$type": "Comindware.Platform.Contracts.CardFieldComponentModel, Comindware.Platform.Contracts",
+          "Type": "FieldComponent",
+          "Label": "Описание",
+          "PropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Attribute",
+                "Owner": "RoleTemplate",
+                "Alias": "roleDescription"
+              }
+            ]
+          },
+          "IsBold": false,
+          "IsItalic": false,
+          "DisplayType": "Text"
+        }
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.CardItemModel, Comindware.Platform.Contracts",
+        "ColSpan": 2,
+        "AlignType": "Right",
+        "Component": {
+          "$type": "Comindware.Platform.Contracts.CardFieldComponentModel, Comindware.Platform.Contracts",
+          "Type": "FieldComponent",
+          "Label": "Вышестоящая роль",
+          "PropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Attribute",
+                "Owner": "RoleTemplate",
+                "Alias": "superiorRole"
+              }
+            ]
+          },
+          "IsBold": false,
+          "IsItalic": false,
+          "DisplayType": "Link"
+        }
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.CardItemModel, Comindware.Platform.Contracts",
+        "ColSpan": 2,
+        "AlignType": "Left"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.CardItemModel, Comindware.Platform.Contracts",
+        "ColSpan": 2,
+        "AlignType": "Right",
+        "Component": {
+          "$type": "Comindware.Platform.Contracts.CardFieldComponentModel, Comindware.Platform.Contracts",
+          "Type": "FieldComponent",
+          "Label": "Нижестоящая роль",
+          "PropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Attribute",
+                "Owner": "RoleTemplate",
+                "Alias": "subordinateRole"
+              }
+            ]
+          },
+          "IsBold": false,
+          "IsItalic": false,
+          "DisplayType": "Link"
+        }
+      }
+    ]
+  },
+  "Container": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "RoleTemplate",
+    "Alias": "RoleTemplate"
+  }
+}
