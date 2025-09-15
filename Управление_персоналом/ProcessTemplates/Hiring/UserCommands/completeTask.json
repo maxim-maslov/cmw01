@@ -1,0 +1,32 @@
+{
+  "$type": "Comindware.Platform.Contracts.UserCommandConfigurationModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "UserCommand",
+    "Owner": "Hiring",
+    "Alias": "completeTask"
+  },
+  "Container": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "ProcessTemplate",
+    "Alias": "Hiring"
+  },
+  "Name": "Завершить задачу",
+  "IsSystem": false,
+  "IsDisabled": false,
+  "IsPrepare": false,
+  "SkipValidation": false,
+  "Context": "Task",
+  "Multiplicity": "OneByOne",
+  "Kind": "CompleteTask",
+  "ResultType": "DataChange",
+  "ConditionRule": "EQUALS($cmw.taskStatus, ID(\"cmw.taskStatus.inProgress\"))",
+  "RelatedEntityGlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Undefined"
+  },
+  "LockStateChangeType": "Undefined",
+  "LockStateVisibilityType": "Undefined",
+  "IsConfirmationActive": false,
+  "NavigationTarget": "Undefined"
+}

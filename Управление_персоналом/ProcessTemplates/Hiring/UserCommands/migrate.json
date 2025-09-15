@@ -1,0 +1,51 @@
+{
+  "$type": "Comindware.Platform.Contracts.UserCommandConfigurationModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "UserCommand",
+    "Owner": "Hiring",
+    "Alias": "migrate"
+  },
+  "Container": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "ProcessTemplate",
+    "Alias": "Hiring"
+  },
+  "Name": "Мигрировать",
+  "IsSystem": false,
+  "IsDisabled": false,
+  "IsPrepare": false,
+  "SkipValidation": false,
+  "Context": "Process",
+  "Multiplicity": "OneByOne",
+  "Kind": "Migrate",
+  "ResultType": "DataChange",
+  "ConditionRule": "@prefix process: <http://comindware.com/ontology/process#>.\n@prefix diagram: <http://comindware.com/ontology/process/diagram#>.\n@prefix cmw: <http://comindware.com/logics#>.\n@prefix processApp: <http://comindware.com/ontology/process/app#>.\n{\n?item cmw:container ?pTemplate.\n?pTemplate processApp:activeDiagram ?lastRevision.\nnot{?item process:activeDiagram ?lastRevision}.\n?item process:status process:ActiveStatus.\ntrue -> ?value.\n}",
+  "RelatedAction": {
+    "$type": "Comindware.Platform.Contracts.UserCommandRelatedActionModel, Comindware.Platform.Contracts",
+    "ContainerGlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "RecordTemplate",
+      "Alias": "_MigrateRelatedEntity"
+    },
+    "TemplateGlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "ProcessTemplate",
+      "Alias": "_MigrateRelatedEntity"
+    },
+    "FormGlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "Form",
+      "Owner": "Hiring",
+      "Alias": "Migration"
+    }
+  },
+  "RelatedEntityGlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Undefined"
+  },
+  "LockStateChangeType": "Undefined",
+  "LockStateVisibilityType": "Undefined",
+  "IsConfirmationActive": false,
+  "NavigationTarget": "Undefined"
+}

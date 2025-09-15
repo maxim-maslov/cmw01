@@ -2,18 +2,18 @@
   "$type": "Comindware.Platform.Contracts.FormModel, Comindware.Platform.Contracts",
   "GlobalAlias": {
     "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-    "Type": "Form",
-    "Owner": "Кандидаты",
-    "Alias": "defaultForm"
+    "Type": "ProcessForm",
+    "Owner": "Hiring",
+    "Alias": "form_userTask1"
   },
   "Type": "PublicForm",
   "Container": {
     "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-    "Type": "RecordTemplate",
-    "Alias": "Кандидаты"
+    "Type": "ProcessTemplate",
+    "Alias": "Hiring"
   },
   "FormSize": "Undefined",
-  "IsDefault": true,
+  "IsDefault": false,
   "Root": {
     "$type": "Comindware.Platform.Contracts.VerticalLayoutModel, Comindware.Platform.Contracts",
     "Rows": {
@@ -23,9 +23,9 @@
           "$type": "Comindware.Platform.Contracts.PanelModel, Comindware.Platform.Contracts",
           "Text": {
             "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts",
-            "En": "Данные кандидата",
-            "De": "Данные кандидата",
-            "Ru": "Данные кандидата"
+            "En": "Результаты тестирования",
+            "De": "Результаты тестирования",
+            "Ru": "Результаты тестирования"
           },
           "OriginalType": "GroupPanel",
           "Rows": {
@@ -44,12 +44,12 @@
                         "Alignment": "Top",
                         "Text": {
                           "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts",
-                          "En": "ФИО кандидата",
-                          "De": "ФИО кандидата",
-                          "Ru": "ФИО кандидата"
+                          "En": "Результат тестирования",
+                          "De": "Результат тестирования",
+                          "Ru": "Результат тестирования"
                         }
                       },
-                      "FieldType": "Text",
+                      "FieldType": "Boolean",
                       "Placeholder": {
                         "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
                       },
@@ -62,18 +62,28 @@
                           {
                             "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
                             "Type": "Attribute",
+                            "Owner": "System#",
+                            "Alias": "cmw_task_objectId"
+                          },
+                          {
+                            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                            "Type": "Attribute",
                             "Owner": "Кандидаты",
-                            "Alias": "ФИО_кандидата"
+                            "Alias": "test_result"
                           }
                         ]
                       },
-                      "TextHeight": 0,
                       "DisableSidePanelConversations": false,
                       "DisableWidgetConversations": false,
                       "HideArchivedMessages": false,
-                      "TextHeightAuto": false,
-                      "MaxLength": 0,
-                      "EditorType": "Multiline",
+                      "TrueText": {
+                        "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+                      },
+                      "FalseText": {
+                        "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+                      },
+                      "UseTrueFalseText": false,
+                      "EditorType": "Checkbox",
                       "CreationType": "None",
                       "RemovalType": "None",
                       "EditType": "None",
@@ -102,79 +112,7 @@
                       "GlobalAlias": {
                         "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
                         "Type": "FormComponent",
-                        "Alias": "ФИО_кандидата"
-                      },
-                      "AccessType": "Editable",
-                      "Width": 0,
-                      "Type": "FieldComponent"
-                    },
-                    {
-                      "$type": "Comindware.Platform.Contracts.FieldComponentModel, Comindware.Platform.Contracts",
-                      "Label": {
-                        "$type": "Comindware.Platform.Contracts.LabelModel, Comindware.Platform.Contracts",
-                        "Hidden": false,
-                        "Alignment": "Top",
-                        "Text": {
-                          "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts",
-                          "En": "Вакансия",
-                          "De": "Вакансия",
-                          "Ru": "Вакансия"
-                        }
-                      },
-                      "FieldType": "Reference",
-                      "Placeholder": {
-                        "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
-                      },
-                      "HelpText": {
-                        "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
-                      },
-                      "PropertyPath": {
-                        "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
-                        "$values": [
-                          {
-                            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-                            "Type": "Attribute",
-                            "Owner": "Кандидаты",
-                            "Alias": "vacancy"
-                          }
-                        ]
-                      },
-                      "DisableSidePanelConversations": false,
-                      "DisableWidgetConversations": false,
-                      "HideArchivedMessages": false,
-                      "EditorType": "Radio",
-                      "CreationType": "None",
-                      "RemovalType": "None",
-                      "EditType": "None",
-                      "HideSearchBar": false,
-                      "ShowAsLink": false,
-                      "ChildPropertyAlias": {
-                        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-                        "Type": "Undefined"
-                      },
-                      "OrderPropertyAlias": {
-                        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-                        "Type": "Undefined"
-                      },
-                      "NumberPropertyAlias": {
-                        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-                        "Type": "Undefined"
-                      },
-                      "PrecedentPropertyAlias": {
-                        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-                        "Type": "Undefined"
-                      },
-                      "SortingDirection": "Asc",
-                      "PopupFormAlias": {
-                        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-                        "Type": "Undefined"
-                      },
-                      "AllowEdit": false,
-                      "DisplayFormat": "ShowAsPicture",
-                      "GlobalAlias": {
-                        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-                        "Type": "FormComponent",
-                        "Alias": "vacancy"
+                        "Alias": "test_result"
                       },
                       "AccessType": "Editable",
                       "Width": 0,
@@ -185,7 +123,7 @@
                 "GlobalAlias": {
                   "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
                   "Type": "FormComponent",
-                  "Alias": "VerticalLayout3"
+                  "Alias": "VerticalLayout1"
                 },
                 "AccessType": "Undefined",
                 "Width": 0,
@@ -196,7 +134,7 @@
           "GlobalAlias": {
             "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
             "Type": "FormComponent",
-            "Alias": "GroupPanelComponent2"
+            "Alias": "Новаяобласть"
           },
           "AccessType": "Editable",
           "Width": 100,
@@ -204,9 +142,38 @@
           "Toolbar": {
             "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
             "Type": "Toolbar",
-            "Owner": "Кандидаты",
-            "Alias": "toolbar9762af7a79c4458f9a4aed3939e6dda5"
+            "Owner": "Hiring",
+            "Alias": "toolbar35600c34e73f49e6a5455b6e14813517"
           }
+        },
+        {
+          "$type": "Comindware.Platform.Contracts.SubFormModel, Comindware.Platform.Contracts",
+          "Name": "Кандидаты - Основная форма",
+          "DataSourcePropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Attribute",
+                "Owner": "System#",
+                "Alias": "cmw_task_objectId"
+              },
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Form",
+                "Owner": "Кандидаты",
+                "Alias": "defaultForm"
+              }
+            ]
+          },
+          "GlobalAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "FormComponent",
+            "Alias": "defaultForm"
+          },
+          "AccessType": "Editable",
+          "Width": 0,
+          "Type": "SubForm"
         }
       ]
     },
@@ -219,7 +186,7 @@
     "Width": 0,
     "Type": "VerticalLayout"
   },
-  "Name": "Кандидаты - Основная форма",
+  "Name": "Новая форма",
   "Origination": "Undefined",
   "WithSimpleToolbar": false
 }

@@ -1,0 +1,50 @@
+{
+  "$type": "Comindware.Platform.Contracts.Models.Triggers.EventTrigger.TriggerModel, Comindware.Platform.Contracts",
+  "Name": "Выход токена из элемента «Провести проверку кандидата» процесса «Найм персонала»",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Trigger",
+    "Alias": "TokenLeaves_userTask3_Process_Hiring_V0_1_3ff860"
+  },
+  "ExecutionContext": "ByInitiator",
+  "Description": "Сценарий при выходе токена из элемента «Провести проверку кандидата» <userTask3>, процесс «Найм персонала» <Hiring>",
+  "BehaviourState": "Active",
+  "ActionsHead": {
+    "$type": "Comindware.Platform.Contracts.Models.Triggers.EventTrigger.OnProcessActivityExit, Comindware.Platform.Contracts",
+    "Kind": "OnProcessActivityExit",
+    "Uid": "5e11d4f2cf1944a5961059354e076324",
+    "Name": "Токен вышел из элемента «Провести проверку кандидата»",
+    "GlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "TriggerEvent",
+      "Alias": "5e11d4f2cf1944a5961059354e076324"
+    },
+    "Description": "Токен вышел из элемента «Провести проверку кандидата» <userTask3>, процесс «Найм персонала» <Hiring>",
+    "Scope": {
+      "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
+      "Type": "ProcessTemplate",
+      "Alias": "Hiring"
+    },
+    "NextAction": {
+      "$type": "Comindware.Platform.Contracts.Models.Triggers.EventTrigger.ReferenceObjectChange, Comindware.Platform.Contracts",
+      "TargetContainer": {
+        "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
+        "Type": "RecordTemplate",
+        "Alias": "Кандидаты"
+      },
+      "ReferenceExpression": "$$BusinessObject",
+      "Kind": "ReferenceObjectChange",
+      "Uid": "2436447468cd416eadf05a80302da0a1",
+      "GlobalAlias": {
+        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+        "Type": "TriggerAction",
+        "Alias": "2436447468cd416eadf05a80302da0a1"
+      },
+      "Scope": {
+        "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
+        "Type": "ProcessTemplate",
+        "Alias": "Hiring"
+      }
+    }
+  }
+}
