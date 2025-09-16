@@ -35,7 +35,7 @@
       "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
       "Type": "Form",
       "Owner": "Кандидаты",
-      "Alias": "defaultForm"
+      "Alias": "candidateForm"
     }
   },
   "RelatedEntityGlobalAlias": {

@@ -4,7 +4,7 @@
     "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
     "Type": "Form",
     "Owner": "Кандидаты",
-    "Alias": "defaultForm"
+    "Alias": "candidateForm"
   },
   "Type": "PublicForm",
   "Container": {
@@ -219,7 +219,7 @@
     "Width": 0,
     "Type": "VerticalLayout"
   },
-  "Name": "Кандидаты - Основная форма",
+  "Name": "Кандидаты - Основная форма.",
   "Origination": "Undefined",
   "WithSimpleToolbar": false
 }

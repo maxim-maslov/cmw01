@@ -21,7 +21,7 @@
       "$values": [
         {
           "$type": "Comindware.Platform.Contracts.SubFormModel, Comindware.Platform.Contracts",
-          "Name": "Кандидаты - Основная форма",
+          "Name": "Кандидаты - Основная форма.",
           "DataSourcePropertyPath": {
             "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
             "$values": [
@@ -35,7 +35,7 @@
                 "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
                 "Type": "Form",
                 "Owner": "Кандидаты",
-                "Alias": "defaultForm"
+                "Alias": "candidateForm"
               }
             ]
           },
